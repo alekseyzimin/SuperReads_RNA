@@ -1,7 +1,7 @@
 [submodule "quorum"]
 	path = quorum
 	url = /software/distr/quorum
-[submodule "SuperReads"]
+[submodule "SuperReadsR"]
 	path = SuperReadsR
 	url = /software/distr/SuperReadsR
 [submodule "jellyfish"]
