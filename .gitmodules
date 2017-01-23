@@ -2,32 +2,11 @@
 	path = quorum
 	url = /software/distr/quorum
 [submodule "SuperReads"]
-	path = SuperReads
-	url = /software/distr/SuperReads
+	path = SuperReadsR
+	url = /software/distr/SuperReadsR
 [submodule "jellyfish"]
 	path = jellyfish
 	url = /software/distr/jellyfish
-[submodule "PacBio"]
-	path = PacBio
-	url = /software/distr/PacBio
-[submodule "wgs-8"]
-	path = CA8
-	url = /software/distr/wgs-8.git
-[submodule "SOAPdenovo2"]
-	path = SOAPdenovo2
-	url = /software/distr/SOAPdenovo2.git
-[submodule "prepare"]
-	path = prepare
-	url = /software/distr/prepare.git
 [submodule "ufasta"]
 	path = ufasta
 	url = /software/distr/ufasta.git
-[submodule "samtools"]
-	path = samtools
-	url = /software/distr/samtools.git
-[submodule "MUMmer"]
-	path = MUMmer
-	url = /software/distr/MUMmer.git
-[submodule "CA"]
-	path = CA
-	url = /software/distr/wgs
