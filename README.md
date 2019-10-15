@@ -1,8 +1,8 @@
 # SuperReads_RNA
 This package is aimed at creating super-reads for Illumina RNAseq reads.  The super-reads reduce the Illumina RNAseq reads to minimal coverage set. preserving all information contained the the reads.
 
-# Installaion
-To install the package, download the .tar.gz tarball from the releases tab, untar and unzip.  Then cd to the folder created and run ./install.sh
+# Installation
+To install the package, download the .tar.gz tarball from the releases tab, unzip/untar with tar -xv.  Then cd to the folder created and run ./install.sh
 
 # Usage
 The install script creates a sample configuration file sr_config_example.txt in the installation folder.  Copy this file to the location where the code will be run and edit it. The parameters are explained in the comments.  Do not worry about JF_SIZE -- it will be set automatically.  The only important setting there is NUM_THREADS for how many threads you wish to run. In the DATA section, input the names of your Illumina paired end RNAseq read files as follows:
