@@ -6,6 +6,7 @@ To install the package, download the .tar.gz tarball from the releases tab, unzi
 
 # Usage
 The install script creates a sample configuration file sr_config_example.txt in the installation folder.  Copy this file to the location where the code will be run and edit it. The parameters are explained in the comments.  Do not worry about JF_SIZE -- it will be set automatically.  The only important setting there is NUM_THREADS for how many threads you wish to run. In the DATA section, input the names of your Illumina paired end RNAseq read files as follows:
+
 PE= <two character prefix> <estimated library mean> <estimated library stdev> <forward_reads.fastq(.gz)> <reverse_reads.fastq(.gz)>
   
 if library mean/stdev is not known, use 500 and 50.  For single-ended reads omit the reverse reads file.  Fastq files may be gzipped.
